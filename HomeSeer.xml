@@ -24,7 +24,7 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
     <Publish>
       <Port>
         <HostPort>88</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <ContainerPort>88</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
@@ -40,6 +40,11 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
       <Port>
         <HostPort>10300</HostPort>
         <ContainerPort>10300</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+       <Port>
+        <HostPort>34808</HostPort>
+        <ContainerPort>34808</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -67,6 +72,6 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
   <Icon>https://dl.dropboxusercontent.com/s/2haqrg3fw737ghe/HS-Button.png</Icon>
   <DonateText></DonateText>
   <DonateLink></DonateLink>
-  <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
+  <DonateImg></DonateImg>
   <ExtraParams></ExtraParams>
 </Container>
