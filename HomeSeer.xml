@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
+<Container>
+<TemplateURL>https://raw.githubusercontent.com/sudogreg/dockerfiles/master/HomeSeer.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Productivity: Tools:</Category>
+<Date></Date>
+ 
   <Name>HomeSeer</Name>
   <Description>
     HomeSeer Linux Docker for unRAID
@@ -12,8 +15,8 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
   <Support>tbd</Support>
   <Registry>https://hub.docker.com/r/sudo1/homeseer/</Registry>
   <GitHub>https://github.com/sudogreg/dockerfiles/tree/master/homeseer</GitHub>
-  <Repository></Repository>
-  <Project></Project>
+  <Repository>sudo1/homeseer</Repository>
+  <Project>HomeSeer</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -71,4 +74,4 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
   <DonateLink></DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
   <ExtraParams></ExtraParams>
-</Containers>
+</Container>
