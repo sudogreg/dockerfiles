@@ -11,7 +11,7 @@
 HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshire, in the United States. HomeSeer makes home automation controllers and software, designed to integrate lighting, HVAC, security, AV and other subsystems in most homes.
   </Overview>
   <Support>tbd</Support>
-  <Registry>https://hub.docker.com/u/sudo1/</Registry>
+  <Registry>https://hub.docker.com/r/sudo1/homeseer/</Registry>
   <GitHub>https://github.com/binhex/arch-jenkins</GitHub>
   <Repository>binhex/arch-jenkins</Repository>
   <Project>https://jenkins-ci.org/</Project>
@@ -30,41 +30,46 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
         <ContainerPort>88</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+      <Port>
+        <HostPort>10401</HostPort>
+        <ContainerPort>10401</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>10200</HostPort>
+        <ContainerPort>10200</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>10300</HostPort>
+        <ContainerPort>10300</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
     </Publish>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>JAVA_ARGS</Name>
-      <Value>-Xmx512m</Value>
-    </Variable>
-    <Variable>
-      <Name>JAVA_OPTS</Name>
-      <Value>-Dhudson.footerURL=http://mycompany.com</Value>
-    </Variable>
-    <Variable>
-      <Name>UMASK</Name>
-      <Value>000</Value>
-    </Variable>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/config</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir>/mnt/cache/appdata/homeseer/scripts</HostDir>
+      <ContainerDir>/HomeSeer/scripts</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/homeseer/data</HostDir>
+      <ContainerDir>/HomeSeer/Data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/homeseer/config</HostDir>
+      <ContainerDir>/HomeSeer/Config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8090]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/jenkins-icon.png</Icon>
-  <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
-  <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MM5E27UX6AUU4</DonateLink>
+  <WebUI>http://[IP]:[PORT:88]/</WebUI>
+  <Icon>https://dl.dropboxusercontent.com/s/2haqrg3fw737ghe/HS-Button.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
   <ExtraParams></ExtraParams>
 </Containers>
