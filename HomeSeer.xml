@@ -4,14 +4,14 @@
 <Beta>False</Beta>
 <Category>Home Automation</Category>
 <Date>2017-11-11</Date>
-  <Name>HomeSeer</Name>
-  <Description>
+<Name>HomeSeer</Name>
+<Description>
     <b>HomeSeer Linux Docker for unRAID</b>
-  </Description>
-  <Overview>
+</Description>
+ <Overview>
 HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshire, in the United States. HomeSeer makes home automation controllers and software, designed to integrate lighting, HVAC, security, AV and other subsystems in most homes.
-  </Overview>
-  <Support>tbd</Support>
+ </Overview>
+  <Support>None Yet</Support>
   <Registry>https://hub.docker.com/r/sudo1/homeseer/</Registry>
   <GitHub>https://github.com/sudogreg/dockerfiles/tree/master/homeseer</GitHub>
   <Repository>sudo1/homeseer</Repository>
