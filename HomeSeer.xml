@@ -2,8 +2,8 @@
 <Container>
 <TemplateURL>https://raw.githubusercontent.com/sudogreg/dockerfiles/master/HomeSeer.xml</TemplateURL>
 <Beta>False</Beta>
-<Category>Productivity: Tools:</Category>
-<Date></Date>
+<Category>Home Automation</Category>
+<Date>2017-11-11</Date>
   <Name>HomeSeer</Name>
   <Description>
     <b>HomeSeer Linux Docker for unRAID</b>
