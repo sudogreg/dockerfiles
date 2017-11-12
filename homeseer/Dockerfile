@@ -26,7 +26,7 @@ RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen \
     && echo "$TIMEZONE" > /etc/timezone \
     && dpkg-reconfigure -f noninteractive tzdata
 
-RUN wget -O tini.deb "https://github.com/krallin/tini/releases/download/v0.14.0/tini_0.14.0-amd64.deb" \
+RUN wget -O tini.deb "https://github.com/krallin/tini/releases/download/v0.16.1/tini_0.16.1-amd64.deb" \
     && dpkg -i tini.deb \
     && rm tini.deb
 
