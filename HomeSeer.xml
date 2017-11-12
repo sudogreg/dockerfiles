@@ -4,8 +4,7 @@
 <Category>Productivity: Tools:</Category>
   <Name>HomeSeer</Name>
   <Description>
-    HomeSeer Linux Docker (UnRaid)
-  [b]/config[/b] This is where jenkins will store it's configuration file, database and logs.
+    HomeSeer Linux Docker for unRAID
   </Description>
   <Overview>
 HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshire, in the United States. HomeSeer makes home automation controllers and software, designed to integrate lighting, HVAC, security, AV and other subsystems in most homes.
@@ -13,8 +12,8 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
   <Support>tbd</Support>
   <Registry>https://hub.docker.com/r/sudo1/homeseer/</Registry>
   <GitHub>https://github.com/sudogreg/dockerfiles/tree/master/homeseer</GitHub>
-  <Repository>binhex/arch-jenkins</Repository>
-  <Project>https://jenkins-ci.org/</Project>
+  <Repository></Repository>
+  <Project></Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
