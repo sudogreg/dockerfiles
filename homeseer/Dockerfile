@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
       libmono-system-web-extensions4.0-cil \
       libmono-system-runtime-caching4.0-cil \
       flite \
+      unzip \
+      nano \
       chromium \
       locales \
     && apt-get clean \
