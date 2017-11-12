@@ -23,13 +23,8 @@ HomeSeer Technologies LLC is a technology company based in Bedford, New Hampshir
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
         <HostPort>88</HostPort>
-        <ContainerPort>88</ContainerPort>
+        <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
