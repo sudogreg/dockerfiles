@@ -1,4 +1,4 @@
-# HomeSeer (originally created by cbolt)
+# HomeSeer 3.0.0.368
 All the needed bits to containerize HomeSeer.
 
 Here is a list of ports that you may want to expose:
@@ -18,5 +18,5 @@ docker run -it --rm \
   -p 10401:10401 \
   -p 10200:10200 \
   -p 10300:10300 \
-  sudo1/homeseer
+  sudo1/homeseer (cloned from cbolt)
 ```
